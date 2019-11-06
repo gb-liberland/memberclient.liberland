@@ -1,0 +1,69 @@
+{
+    "dacName": "Government of Liberland",
+    "dacScope": "gov",
+    "accounts": {
+        "treasuryAccount":{
+            "name": "treasury.gov"
+        },
+        "authAccount": {
+            "name": "members.gov"
+        }
+    },
+    "contracts": {
+        
+        "token": {
+            "name": "eosio.token",
+            "symbol": "LLM",
+            "totalSupply": 1000000000.0000,
+            "decimals": 4
+        },
+        "system_token": {
+            "name": "eosio.token",
+            "symbol": "LLM",
+            "decimals": 4
+        },
+        "custodian": {
+            "name": "voting.gov",
+            "memo": "voting.gov",
+            "enable_voting" : true
+        },
+        "bot":{
+            "name": "bot.gov"
+        },
+        "system_msig": {
+            "name": "eosio.msig"
+        },
+        "dac_msig": {
+            "name": "proposal.gov"
+        },        
+        "wpproposal":{
+            "name": "hr.gov"
+        },
+        "escrow":{
+            "name": "escrow.gov"
+        }
+
+    },
+
+    "financial_page_graphs": [
+        {
+          "account": "treasury.gov",
+          "contract": "eosio.token",
+          "symbol": "LLM",
+          "description":
+            "The Government reasury account"
+        }
+    ],
+
+    "api": {
+        "default_eos_node": "https://liberland-test.eosio.se:443",
+        "bpnodes": "",
+        "memberclient_state_api": "https://liberland-test.eosio.se/v1/eosdac",
+        "firehose": "ws://liberland-test.eosio.se:1337"
+    },
+
+    "external":{
+        "homepage": "https://eosdac.io",
+        "explorer": "https://bloks.io"
+    }
+}

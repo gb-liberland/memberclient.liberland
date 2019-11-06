@@ -1,18 +1,10 @@
 [
     { 
-      "name": "jungle",
+      "name": "liberland",
       "blockchain":"eos",
-      "host":"jungle2.cryptolions.io",
+      "host":"liberland-test.eosio.se",
       "port":443,
       "protocol":"https",
-      "chainId":"e70aaab8997e1dfce58fbfac80cbbb8fecec7b99cf982a9444273cbc64c41473"
-    },
-    { 
-      "name": "mainnet",
-      "blockchain":"eos",
-      "host":"eos.greymass.com",
-      "port":443,
-      "protocol":"https",
-      "chainId":"aca376f206b8fc25a6ed44dbdc66547c36c6c33e3a119ffbeaef943642f0e906"
+      "chainId":"cc7d69ef6216ba33be85e9b256fbfbad4e103c14e0f115b281b2f954838c463a"
     }
   ]
