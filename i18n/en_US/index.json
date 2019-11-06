@@ -1,16 +1,13 @@
 {
-  "example": {
-    "exmaple_menu": "Example Menu Extension"
+  "home":{
+    "description": "Free Republic of Liberland is a sovereign state located between Croatia and Serbia. It is a 7km2 land referred to as “Gornja Siga.” The founder and elected head of state is President Vit Jedlicka. Liberland is a constitutional republic with elements of direct democracy. The state has two Vice Presidents and 5 Ministers. The language is English. The Liberland Merit is the currency of Liberland. The country's motto is: To live and let live."
   },
   "meta": {
-    "title": "eosDAC Boilerplate",
-    "keywords": "eosdac, member, eos, dac, token, custodian, blockchain, crypto, decentralized, autonomous",
-    "noscript": "To view this webpage you need to have javascript enabled"
-  },
-  "home": {
-    "description_p1": "A DAC is a decentralized autonomous community which means it is owned and operated by the token holders who agree to the constitution and register as members of the community.",
-    "description_p2": "This member client will allow you to read the constitution, register as a member, submit worker proposals, register as a custodian candidate, vote on custodians, transfer tokens, and more.",
-    "signin": "log in",
-    "signout": "Log out"
+    "title": "Liberland Portal",
+    "description": "Welcome to the Liberland citizen portal",
+    "keywords": "Liberland, liberty",
+    "noscript": "To view this webpage you need to have javascript enabled",
+    "video_url": ""
   }
+  
 }
